@@ -19,14 +19,14 @@ public class Check{
         }
         System.out.println();
         for (int i = 0; i < data.length/*ここに記述*/; i++) {
-            for (int j = data.length/*ここに記述*/; j > i; j--) {
+            for (int j = data.length-1/*ここに記述*/; j > i; j--) {
                 /*
                 * 問3
                 * 以下、配列の添字を入れてソートを完成させなさい
                 */
                 if(data[j-1/*ここに記述*/] > data[j/*ここに記述*/]){
                   int box = data[j-1/*ここに記述*/];
-                  data[j/*ここに記述*/] = data[j-1/*ここに記述*/];
+                  data[j-1/*ここに記述*/] = data[j/*ここに記述*/];
                   data[j/*ここに記述*/] = box;
                 }
             }
