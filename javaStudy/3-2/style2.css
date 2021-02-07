@@ -1,0 +1,52 @@
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.wrapper{
+  width: 400px;
+}
+.konn{
+  background-color: #141f40;
+  height: 100px;
+  width: 400px;
+}
+.green{
+  background-color: #80bfa8;
+  height: 250px;
+  width: 150px;
+  float: left;
+}
+.iero{
+  background-color: #dbd400;
+  height: 50px;
+  width: 150px;
+  float: left;
+}
+.blu{
+  background-color: #0093b7;
+  height: 100px;
+  width: 150px;
+  float: left;
+}
+.red{
+  background-color: #8c2727;
+  height: 100px;
+  width: 250px;
+  float: left;
+}
+.oreng{
+  background-color: #ff9e6b;
+  height: 150px;
+  width: 100px;
+ float: right;
+}
+.tya{
+  background-color: #d98b30;
+  height: 100px;
+  width: 400px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
