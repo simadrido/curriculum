@@ -1,108 +1,109 @@
-/* 幅　300px */
-@media screen and (min-width: 767px){
+@media screen and (max-width: 767px){
+  .clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  .wrapper{
+    width: 300px;
+  }
+  .konn{
+    background-color: #141f40;
+    height: 100px;
+    width: 300px;
+  }
+  .green{
+    background-color: #80bfa8;
+    height: 250px;
+    width: 100px;
+    float: left;
+  }
+  .iero{
+    background-color: #dbd400;
+    height: 50px;
+    width: 125px;
+    float: left;
+  }
+  .blu{
+    background-color: #0093b7;
+    height: 100px;
+    width: 125px;
+    float: left;
+  }
+  .red{
+    background-color: #8c2727;
+    height: 100px;
+    width: 200px;
+    float: left;
+  }
+  .oreng{
+    background-color: #ff9e6b;
+    height: 150px;
+    width: 75px;
+    float: right;
+  }
+  .tya{
+    background-color: #d98b30;
+    height: 100px;
+    width: 300px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
 }
-.clearfix::after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-.wrapper{
-  width: 300px;
-}
-.konn{
-  background-color: #141f40;
-  height: 100px;
-  width: 300px;
-}
-.green{
-  background-color: #80bfa8;
-  height: 250px;
-  width: 100px;
-  float: left;
-}
-.iero{
-  background-color: #dbd400;
-  height: 50px;
-  width: 125px;
-  float: left;
-}
-.blu{
-  background-color: #0093b7;
-  height: 100px;
-  width: 125px;
-  float: left;
-}
-.red{
-  background-color: #8c2727;
-  height: 100px;
-  width: 200px;
-  float: left;
-}
-.oreng{
-  background-color: #ff9e6b;
-  height: 150px;
-  width: 75px;
- float: right;
-}
-.tya{
-  background-color: #d98b30;
-  height: 100px;
-  width: 300px;
-}
-* {
-  margin: 0;
-  padding: 0;
-}
-/* 幅　150px */
-clearfix::after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-.wrapper{
-  width: 150px;
-}
-.konn{
-  background-color: #141f40;
-  height: 100px;
-  width: 150px;
-}
-.green{
-  background-color: #80bfa8;
-  height: 250px;
-  width: 150px;
-  float: left;
-}
-.iero{
-  background-color: #dbd400;
-  height: 50px;
-  width: 150px;
-  float: left;
-}
-.blu{
-  background-color: #0093b7;
-  height: 100px;
-  width: 150px;
-  float: left;
-}
-.red{
-  background-color: #8c2727;
-  height: 100px;
-  width: 150px;
-  float: left;
-}
-.oreng{
-  background-color: #ff9e6b;
-  height: 150px;
-  width: 150px;
- float: right;
-}
-.tya{
-  background-color: #d98b30;
-  height: 100px;
-  width: 150px;
-}
-* {
-  margin: 0;
-  padding: 0;
-}
+  @media screen and (max-width: 479px){
+    clearfix::after {
+      content: " ";
+      display: block;
+      clear: both;
+    }
+    .wrapper{
+      width: 150px;
+    }
+    .konn{
+      background-color: #141f40;
+      height: 100px;
+      width: 150px;
+    }
+    .green{
+      background-color: #80bfa8;
+      height: 250px;
+      width: 150px;
+      float: left;
+    }
+    .iero{
+      background-color: #dbd400;
+      height: 50px;
+      width: 150px;
+      float: left;
+    }
+    .blu{
+      background-color: #0093b7;
+      height: 100px;
+      width: 150px;
+      float: left;
+    }
+    .red{
+      background-color: #8c2727;
+      height: 100px;
+      width: 150px;
+      float: left;
+    }
+    .oreng{
+      background-color: #ff9e6b;
+      height: 150px;
+      width: 150px;
+      float: right;
+    }
+    .tya{
+      background-color: #d98b30;
+      height: 100px;
+      width: 150px;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  }
+    
