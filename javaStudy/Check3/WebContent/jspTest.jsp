@@ -10,6 +10,7 @@
 <body>
 <%@ include file="header.jsp" %>
 <!-- name、idの入力エリアを作成しなさい -->
+<div class="test">
 <div>
 <label>
  name
@@ -21,6 +22,7 @@
  id
  <input type = "text" name ="id">
 </label>
+</div>
 </div>
 <%@ include file="footer.jsp"%>
 </body>

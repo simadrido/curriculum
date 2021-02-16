@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import="java.util.*,java.text.SimpleDateFormat"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -8,10 +9,15 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<label>
-<div class ="header">login</div>
-<%@ include file = "include.jsp" %>
-</label>
+<div class ="header">
+<label class="header-label">login</label>
+<label class="ca">
+<% Date date = new Date();
+   SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
+   String formatDate = sdf.format(date);%>
+   <%= formatDate %>
+   </label>
+</div>
 </body>
 </html>
     

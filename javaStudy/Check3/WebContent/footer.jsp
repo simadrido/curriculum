@@ -9,9 +9,8 @@
 </head>
 <body>
 <!-- フッターを作成 -->
-<div>
-hoge.lnc
-<label ></label>
+<div class="footer">
+<label class="footer-label">hoge.lnc</label>
 </div>
 </body>
 </html>
