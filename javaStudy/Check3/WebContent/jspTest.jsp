@@ -11,18 +11,22 @@
 <%@ include file="header.jsp" %>
 <!-- name、idの入力エリアを作成しなさい -->
 <div class="test">
+<table>
 <div>
 <label>
- name
- <input type ="text" name = "name">
+<tr>
+ <th>name</th><td><input type ="text" name = "name"></td>
+</tr>
 </label>
 </div>
 <div>
-<label>
- id
- <input type = "text" name ="id">
+<label for="id">
+<tr>
+  <th>id</th><td><input type = "text" name ="id"></td>
+</tr>
 </label>
 </div>
+</table>
 </div>
 <%@ include file="footer.jsp"%>
 </body>
